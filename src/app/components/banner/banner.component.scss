@@ -1,5 +1,9 @@
 .banner_container {
   width: 100%;
+  overflow: hidden !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
 .banner_content_container {
@@ -34,7 +38,7 @@
 .banner_container .banner {
   height: auto;
   margin-top: 100px;
-  width: 100% !important;
+  width: 100%;
   z-index: -10;
 }
 
@@ -50,4 +54,18 @@
   align-items: center;
   position: relative;
   z-index: 50;
+}
+
+@media (max-width: 1200px) {
+  .banner {
+    width: 130% !important;
+    left: -67px;
+  }
+}
+
+@media (max-width: 700px) {
+  .banner {
+    width: 180% !important;
+    left: -67px;
+  }
 }

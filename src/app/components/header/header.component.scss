@@ -72,37 +72,37 @@ li a:hover {
   cursor: pointer;
 }
 
-.header .container .row{
-  display:flex;
-  justify-content:center;
-  flex-direction:row;
-  align-items:center;
-  height:100px;
+.header .container .row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
 }
 
 .logo-mat {
   width: 20% !important;
   height: 100% !important;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu-mat {
   width: 60% !important;
   height: 100% !important;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0 !important;
 }
 
 .lang-selector-mat {
   width: 20% !important;
   height: 100% !important;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 1290px) {
