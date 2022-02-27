@@ -1,48 +1,44 @@
 <div class="header">
   <div class="container">
     <div class="row">
-      <mat-grid-list cols="3" rowHeight="100%">
-        <mat-grid-tile>
-          <div class="logo">
-            <a href="#mainPosition"
-              ><img src="../../../assets/logosonofgods.png"
-            /></a>
-          </div>
-        </mat-grid-tile>
-        <mat-grid-tile>
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#lorePosition">
-                {{ "lore" | translate }}
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#sonsPosition"> SOG </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#roadmapPosition">
-                {{ "roadmap" | translate }}
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#teamPosition">
-                {{ "team" | translate }}</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#FaQsPosition">
-                FAQ</a
-              >
-            </li>
-          </ul>
-        </mat-grid-tile>
-        <mat-grid-tile>
-          <div class="idiom_button" (click)="changeLenguage()">
-            <div id="es" class="es" *ngIf="selectedLang == 'es'">EN</div>
-            <div id="en" class="es" *ngIf="selectedLang == 'en'">ES</div>
-          </div>
-        </mat-grid-tile>
-      </mat-grid-list>
+      <div class="logo-mat">
+        <div class="logo">
+          <a href="#mainPosition"
+            ><img src="../../../assets/logosonofgods.png"
+          /></a>
+        </div>
+      </div>
+      <div class="menu-mat">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#lorePosition">
+              {{ "lore" | translate }}
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sonsPosition"> SOG </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#roadmapPosition">
+              {{ "roadmap" | translate }}
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#teamPosition">
+              {{ "team" | translate }}</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#FaQsPosition"> FAQ</a>
+          </li>
+        </ul>
+      </div>
+      <div class="lang-selector-mat">
+        <div class="idiom_button" (click)="changeLenguage()">
+          <div id="es" class="es" *ngIf="selectedLang == 'es'">EN</div>
+          <div id="en" class="es" *ngIf="selectedLang == 'en'">ES</div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

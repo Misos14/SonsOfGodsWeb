@@ -34,10 +34,12 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  width: max-content;
 }
 
 li {
   float: left;
+  width: max-content;
 }
 
 li a {
@@ -63,12 +65,48 @@ li a:hover {
   font-family: "Cinzel Decorative", display;
 }
 
-.idiom_button {
-}
-
 .idiom_button:hover {
-  font-size:17px;
+  font-size: 17px;
   transition: font-size 0.5s ease-in-out;
   color: #ffd500;
   cursor: pointer;
+}
+
+.header .container .row{
+  display:flex;
+  justify-content:center;
+  flex-direction:row;
+  align-items:center;
+  height:100px;
+}
+
+.logo-mat {
+  width: 20% !important;
+  height: 100% !important;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.menu-mat {
+  width: 60% !important;
+  height: 100% !important;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding: 0 !important;
+}
+
+.lang-selector-mat {
+  width: 20% !important;
+  height: 100% !important;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+@media (max-width: 1290px) {
+  .navbar-nav .nav-item a {
+    font-size: 13px;
+  }
 }

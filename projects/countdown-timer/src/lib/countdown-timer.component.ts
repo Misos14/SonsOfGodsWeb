@@ -21,7 +21,6 @@ import { map } from 'rxjs/internal/operators/map';
   
   #timer div {
     display: inline-block;
-    min-width: 90px;
     padding: 15px;
     background: black; 
     border-radius: 10px;

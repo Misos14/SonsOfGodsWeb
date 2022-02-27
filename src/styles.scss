@@ -145,14 +145,14 @@ app-root app-lore .swiper-pointer-events {
   justify-content: center;
   align-items: center;
   position: relative;
-  left: -30px;
-  font-size: 250% !important;
-  width: 100% !important;
+  left: -26px;
+  font-size: 30px !important;
+  width: max-content !important;
 }
 
 /* Division */
 #timer div {
-  min-width: 48px !important;
+  width: 48px !important;
   display: inline-flex !important;
   justify-content: center;
   align-items: center;
@@ -163,20 +163,6 @@ app-root app-lore .swiper-pointer-events {
   pointer-events: auto;
   flex-direction: column;
 }
-
-/* Image */
-app-root
-  app-banner
-  .banner_container
-  .mat-grid-list
-  div
-  .mat-grid-tile
-  .mat-grid-tile-content
-  .logoBanner
-  img {
-  width: 1026px !important;
-}
-
 // Player //
 
 .mat-slider-focus-ring {
@@ -268,3 +254,25 @@ app-root
 }
 
 // END Player //
+
+@media (max-width: 1400px) {
+  #timer {
+    font-size: 35px !important;
+  }
+
+  #timer div {
+    width: 40px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  #timer {
+    font-size: 25px !important;
+  }
+
+  #timer div {
+    width: 15% !important;
+    margin: 0 !important;
+  }
+}
+
