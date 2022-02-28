@@ -87,8 +87,8 @@ $sombra: 0 0 13px 0 rgb(255, 255, 255);
   font-size: 17px;
 }
 
-.container_answer img{
-	transform: rotate(0deg);
+.container_answer img {
+  transform: rotate(0deg);
   transition: 0.5s ease all;
 }
 // /*! =================================================*/
@@ -120,13 +120,13 @@ $sombra: 0 0 13px 0 rgb(255, 255, 255);
   transition: 0.5s ease all;
 }
 
-.show_answer{
+.show_answer {
   opacity: 1;
   transition: 0.5s ease all;
 }
 
 .show_answer_container img {
-	transform: rotate(45deg);
+  transform: rotate(45deg);
   transition: 0.5s ease all;
 }
 // END Button section
@@ -147,6 +147,7 @@ $sombra: 0 0 13px 0 rgb(255, 255, 255);
   margin-left: 15%;
   margin-right: 15%;
 }
+
 .mat-expansion-panel {
   background-color: rgba(0, 0, 0, 0);
   color: white;
@@ -156,4 +157,19 @@ $sombra: 0 0 13px 0 rgb(255, 255, 255);
 
 .mat-expansion-panel-header-title {
   color: rgb(255, 255, 255);
+}
+
+
+@media (max-width: 800px) {
+
+  .faq_container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .categories .category{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
 }

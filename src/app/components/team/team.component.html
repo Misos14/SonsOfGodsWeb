@@ -1,36 +1,16 @@
 <div class="team_master_container">
-  <div name="teamPosition" class="title">{{'team' | translate}}</div>
-  <mat-grid-list cols="4" rowHeight="350px">
-    <mat-grid-tile>
-      <a href="https://twitter.com/Misos13" target="_blank">
-        <img class="team_card" src="../../../assets/diego.jpeg" />
-      </a>
-    </mat-grid-tile>
-
-    <mat-grid-tile>
-      <a href="https://www.instagram.com/juan.__toledo/" target="_blank">
-        <img class="team_card" src="../../../assets/juan.jpeg" />
-      </a>
-    </mat-grid-tile>
-    <mat-grid-tile>
-      <a href="https://www.instagram.com/traficantedearte8/" target="_blank">
-        <img class="team_card" src="../../../assets/mauri.jpeg" />
-      </a>
-    </mat-grid-tile>
-    <mat-grid-tile>
-      <a href="https://twitter.com/FicoEspeleta2" target="_blank">
-        <img class="team_card" src="../../../assets/fico.jpeg" />
-      </a>
-    </mat-grid-tile>
-  </mat-grid-list>
-  <mat-grid-list cols="4" rowHeight="150px">
-    <mat-grid-tile class="profileInfo">
-      <div class="underPic_container">
+  <div name="teamPosition" class="title">{{ "team" | translate }}</div>
+  <div class="img_master_container">
+    <div class="first_half_team_container">
+      <div class="img_container">
+        <a href="https://twitter.com/Misos13" target="_blank">
+          <img class="team_card" src="../../../assets/diego.jpeg" />
+        </a>
         <div class="titles_container">
           <h2>
             <p>
-              {{'Developer' | translate}} <br />
-              Co-{{'founder' | translate}} <br />
+              {{ "Developer" | translate }} <br />
+              Co-{{ "founder" | translate }} <br />
               Diegownn <br />
             </p>
           </h2>
@@ -48,14 +28,15 @@
           </div>
         </div>
       </div>
-    </mat-grid-tile>
-    <mat-grid-tile class="profileInfo">
-      <div class="underPic_container">
+      <div class="img_container">
+        <a href="https://www.instagram.com/juan.__toledo/" target="_blank">
+          <img class="team_card" src="../../../assets/juan.jpeg" />
+        </a>
         <div class="titles_container">
           <h2>
             <p>
-              {{'Developer' | translate}} <br />
-              Co-{{'founder' | translate}} <br />
+              {{ "Developer" | translate }} <br />
+              Co-{{ "founder" | translate }} <br />
               Depi
             </p>
           </h2>
@@ -73,13 +54,16 @@
           </div>
         </div>
       </div>
-    </mat-grid-tile>
-    <mat-grid-tile class="profileInfo">
-      <div class="underPic_container">
+    </div>
+    <div class="second_half_team_container">
+      <div class="img_container">
+        <a href="https://www.instagram.com/traficantedearte8/" target="_blank">
+          <img class="team_card" src="../../../assets/mauri.jpeg" />
+        </a>
         <div class="titles_container">
           <h2>
             <p>
-              {{'Designer' | translate}} <br />
+              {{ "Designer" | translate }} <br />
               Mauri
             </p>
           </h2>
@@ -98,13 +82,14 @@
           </div>
         </div>
       </div>
-    </mat-grid-tile>
-    <mat-grid-tile class="profileInfo">
-      <div class="underPic_container">
+      <div class="img_container">
+        <a href="https://twitter.com/FicoEspeleta2" target="_blank">
+          <img class="team_card" src="../../../assets/fico.jpeg" />
+        </a>
         <div class="titles_container">
           <h2>
             <p>
-              {{'Community Manager' | translate}} <br />
+              {{ "Community Manager" | translate }} <br />
               Fico
             </p>
           </h2>
@@ -122,6 +107,6 @@
           </div>
         </div>
       </div>
-    </mat-grid-tile>
-  </mat-grid-list>
+    </div>
+  </div>
 </div>

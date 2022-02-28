@@ -58,14 +58,18 @@
 
 @media (max-width: 1200px) {
   .banner {
-    width: 130% !important;
+    width: 100% !important;
     left: -67px;
+  }
+
+  .banner_container .banner{
+    margin-top: 80px;
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .banner {
-    width: 180% !important;
+    width: 170% !important;
     left: -67px;
   }
 }

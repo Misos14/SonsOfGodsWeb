@@ -267,7 +267,7 @@ app-root app-lore .swiper-pointer-events {
 
 @media (max-width: 1200px) {
   #timer {
-    font-size: 25px !important;
+    font-size: 30px !important;
   }
 
   #timer div {
@@ -276,3 +276,12 @@ app-root app-lore .swiper-pointer-events {
   }
 }
 
+@media (max-width: 1024px) {
+  #timer {
+    font-size: 25px !important;
+  }
+
+  #timer div {
+    width: 15% !important;
+  }
+}
