@@ -5,12 +5,9 @@ import {
   ViewChild,
   Inject,
 } from '@angular/core';
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { DOCUMENT } from '@angular/common';
 import { TranslateService } from '@ngx-translate/core';
 
-gsap.registerPlugin(ScrollTrigger);
 
 @Component({
   selector: 'app-root',

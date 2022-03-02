@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RoadmapComponent implements OnInit {
 
+  selectedLang = localStorage.getItem('lang') || 'en';
   constructor() { }
-
   ngOnInit(): void {
+    this.selectedLang = localStorage.getItem('lang') || 'en';
   }
 
 }
