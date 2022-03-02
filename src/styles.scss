@@ -74,6 +74,37 @@ body {
 
 // END TITLES //
 
+// SWIPER //
+
+#master .swiper-pointer-events .swiper-button-next{
+  color:#d7c123;
+  margin-right:70px;
+ }
+ 
+ /* Swiper button disabled */
+ #master .swiper-pointer-events .swiper-button-disabled{
+  color:#d7c123;
+  margin-left:70px;
+ }
+ 
+ /* Swiper button prev */
+ #master .swiper-pointer-events .swiper-button-prev{
+  margin-left:70px;
+  color:#d7c123;
+ }
+
+ .lore_master_container .swiper-pointer-events .swiper-pagination-bullet-active{
+  color:#d7c123;
+  background-color:#d7c123;
+ }
+ 
+ /* Span Tag */
+ .lore_master_container .swiper-pointer-events span{
+  background-color:#d7c123;
+ }
+
+// END SWIPER
+
 /* Timer */
 
 #timer div {
@@ -83,57 +114,6 @@ body {
 
 @import url("//fonts.googleapis.com/css2?family=Cinzel+Decorative:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("//fonts.googleapis.com/css2?family=Caesar+Dressing:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
-
-/* Swiper slide active */
-.lore_master_container .swiper-wrapper .swiper-slide {
-  font-family: "Cinzel Decorative", display;
-  font-size: 16px;
-  line-height: 1.4em;
-  font-style: normal;
-}
-
-app-root app-lore .swiper-slide {
-  text-align: justify;
-  width: 700px !important;
-  overflow: visible;
-  padding-right: 0px;
-
-  text-align: center;
-  font-family: "Caesar Dressing", display;
-  font-size: 18px;
-  line-height: 24.6px;
-  text-transform: capitalize;
-  text-align: center;
-  letter-spacing: 1.9px;
-  word-spacing: 3px;
-  text-shadow: rgba(0, 0, 0, 0.3) 0px 1px 1px;
-  color: #ffffff;
-}
-
-app-root app-lore .swiper-wrapper {
-  width: 0px;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-top: 0px;
-}
-
-app-root app-lore .swiper-button-next {
-  color: #ffffff;
-}
-
-app-root app-lore .swiper-button-prev {
-  color: #ffffff;
-}
-
-.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
-.swiper-pagination-horizontal.swiper-pagination-bullets
-  .swiper-pagination-bullet {
-  background-color: white;
-}
-
-app-root app-lore .swiper-pointer-events {
-  background-color: rgba(0, 0, 0, 0.77);
-}
 
 #timer {
   font-family: "Roboto", sans-serif;
@@ -283,18 +263,28 @@ app-root app-lore .swiper-pointer-events {
 
 @media (max-width: 850px) {
   #timer div {
-    font-size: 20px;
     padding: 10px !important;
+  }
+
+  .title {
+    font-size: 30px !important;
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   #timer div {
-    font-size: 15px;
+    font-size: 20px;
     padding: 5px !important;
   }
 
   #timer div span {
     margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 400px) {
+  #timer div {
+    font-size: 17px;
+    padding: 4px !important;
   }
 }

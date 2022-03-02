@@ -1,5 +1,5 @@
 import { Component, ViewEncapsulation } from "@angular/core";
-import SwiperCore, { Zoom, Navigation, Pagination } from "swiper";
+import SwiperCore, { Zoom, Navigation, Pagination, Swiper } from "swiper";
 
 SwiperCore.use([Zoom, Navigation, Pagination]);
   
@@ -15,7 +15,8 @@ SwiperCore.use([Zoom, Navigation, Pagination]);
   export class GalleryComponent  {
   
     constructor() { }
-  
+
+    
   
   }
   

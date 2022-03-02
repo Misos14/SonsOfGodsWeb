@@ -133,9 +133,9 @@ li a:hover {
   }
 }
 
-.es img{
+.es img {
   filter: brightness(0.83);
- }
+}
 
 @media (max-width: 600px) {
   .logo img {
@@ -150,7 +150,10 @@ li a:hover {
 
   .menu-mat {
     width: 90%;
+    justify-content: flex-start;
+  }
+
+  li a {
+    padding: 10px;
   }
 }
- 
- 
