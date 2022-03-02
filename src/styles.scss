@@ -145,8 +145,7 @@ app-root app-lore .swiper-pointer-events {
   justify-content: center;
   align-items: center;
   position: relative;
-  left: -26px;
-  font-size: 30px !important;
+  font-size: 30px;
   width: max-content !important;
 }
 
@@ -172,6 +171,7 @@ app-root app-lore .swiper-pointer-events {
 .ngx-audio-player {
   color: #000000 !important;
   background-color: #000000 !important;
+  min-width: none !important;
 }
 .player_container .player .player_back {
   background-color: #c20000;
@@ -257,7 +257,7 @@ app-root app-lore .swiper-pointer-events {
 
 @media (max-width: 1400px) {
   #timer {
-    font-size: 35px !important;
+    font-size: 35px;
   }
 
   #timer div {
@@ -266,22 +266,34 @@ app-root app-lore .swiper-pointer-events {
 }
 
 @media (max-width: 1200px) {
-  #timer {
-    font-size: 30px !important;
-  }
-
   #timer div {
+    font-size: 30px;
     width: 15% !important;
     margin: 0 !important;
   }
 }
 
 @media (max-width: 1024px) {
-  #timer {
-    font-size: 25px !important;
+  #timer div {
+    font-size: 25px;
+    width: 15% !important;
+  }
+}
+
+@media (max-width: 850px) {
+  #timer div {
+    font-size: 20px;
+    padding: 10px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  #timer div {
+    font-size: 15px;
+    padding: 5px !important;
   }
 
-  #timer div {
-    width: 15% !important;
+  #timer div span {
+    margin-top: 0 !important;
   }
 }

@@ -1,8 +1,7 @@
-
 @import "~swiper/css";
 @import "~swiper/css/pagination";
 
-.lore_master_container{
+.lore_master_container {
   margin-top: 100px;
 }
 
@@ -50,19 +49,34 @@
   width: 40%;
 }
 
-.player_container{
+.player {
+  padding-left: 0px;
+}
+
+.player_container {
   max-width: 100%;
   width: 100%;
   align-items: center;
-  margin-top:31px;
+  margin-top: 31px;
+  display: flex;
+  justify-content: center;
 }
 
-.player_container .player{
-  display:inline-block;
-  opacity:1;
-  cursor:pointer;
-  width:60%;
-  padding-left: 20%;
+.player_container .player {
+  display: inline-block;
+  opacity: 1;
+  cursor: pointer;
+  width: 60%;
   background-color: #000000;
 }
 
+@media (max-width: 800px) {
+
+  .player_container{
+    width: 0;
+  }
+
+  .player {
+    width: 100%;
+  }
+}

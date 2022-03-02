@@ -2,29 +2,67 @@
   width: 100%;
   overflow: hidden !important;
   display: flex !important;
-  justify-content: center !important;
   align-items: center !important;
+  overflow-y: hidden;
+  flex-direction: column;
+  justify-content: flex-end !important;
 }
 
 .banner_content_container {
-  height: 100%;
+  height: max-content;
   width: 100%;
   position: absolute;
-  top: 17%;
-  height: max-content !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_img {
+  margin-bottom: 220%;
+}
+
+.zeus_container {
+  height: 100%;
+  width: 45%;
+}
+
+.zeus {
+  height: 100%;
+  width: 100%;
+}
+
+.poseidon_container {
+  height: 100%;
+  width: 45%;
+}
+
+.poseidon {
+  height: 100%;
+  width: 100%;
+}
+
+.logo_counter_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 100%;
+  overflow: visible;
+}
+
+.logo_banner_container img {
+  width: 200% !important;
 }
 
 .logo_banner_container {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  left: -34px;
-}
-
-.logo_img {
-  width: 23% !important;
-  height: 13% !important;
+  position: absolute;
+  width: 100%;
+  height: 50%;
 }
 
 .mat-grid-tile {
@@ -35,8 +73,8 @@
   width: 100%;
 }
 
-.banner_container .banner {
-  height: auto;
+.banner {
+  height: max-content;
   margin-top: 100px;
   width: 100%;
   z-index: -10;
@@ -49,6 +87,7 @@
 
 .timeCounter {
   width: 100% !important;
+  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,14 +101,39 @@
     left: -67px;
   }
 
-  .banner_container .banner{
+  .banner_container .banner {
     margin-top: 80px;
   }
 }
 
 @media (max-width: 800px) {
   .banner {
-    width: 170% !important;
-    left: -67px;
+    width: 150% !important;
   }
+
+  .zeus {
+    width: 150% !important;
+  }
+
+  .zeus_container {
+    width: 80%;
+    float: none;
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .poseidon_container {
+    width: 80%;
+    overflow: hidden;
+  }
+
+  .poseidon {
+    width: 150% !important;
+  }
+
+  
+.logo_img {
+  margin-bottom: 300%;
+}
 }
