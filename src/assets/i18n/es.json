@@ -36,7 +36,16 @@
     "Our professional designer made the layers in Blender, ..., ... and our programmers mixed it with a custom candy machine, except for the gods who are made manually each of them.": "Nuestro diseñador profesional hizo las capas en Blender, ..., ... y nuestros programadores las mezclaron con una candy machine personalizada, excepto los dioses que se hacen manualmente cada una de ellas.",
     "Born of Sons of Gods": "Nacimiento de Sons of Gods",
     "Made by": "Hecho por",
-
+    "cookie": {
+            "header": "Cookies used on the website!",
+            "message": "Este sitio utiliza cookies para asegurar que obtengas la mejor experiencia en nuestra web.",
+            "dismiss": "ok",
+            "allow": "Como hijo de un dios, acepto.",
+            "deny": "Rechazar",
+            "link": "Leer más.",
+            "policy": "Política de cookies"
+    },
+    
     "In the beginning, all space-time was chaos. Our universe was forged": "Al comienzo, todo el espacio tiempo era caos. Nuestro universo fue forjado",
     "by a hitherto indecipherable event. This one detached the": "por un evento hasta el momento indescifrable. Éste desprendió la",
     "enough energy to devise twelve different deities. It was like this": "suficiente energía para idear a doce deidades diferentes. Fue así como",

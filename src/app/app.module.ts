@@ -25,6 +25,23 @@ import { GodsComponent } from './components/gods/gods.component';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import {NgcCookieConsentModule, NgcCookieConsentConfig} from 'ngx-cookieconsent';
+
+const cookieConfig:NgcCookieConsentConfig = {
+  cookie: {
+    domain: 'sonsofgods.io' // or 'your.domain.com' // it is mandatory to set a domain, for cookies to work properly (see https://goo.gl/S2Hy2A)
+  },
+  palette: {
+    popup: {
+      background: '#000'
+    },
+    button: {
+      background: '#d7c123'
+    }
+  },
+  theme: 'edgeless',
+  type: 'opt-out'
+};
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -58,6 +75,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ButtonModule,
     NgxAudioPlayerModule,
     HttpClientModule,
+    NgcCookieConsentModule.forRoot(cookieConfig),
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
