@@ -36,6 +36,15 @@
     "Our professional designer made the layers in Blender, ..., ... and our programmers mixed it with a custom candy machine, except for the gods who are made manually each of them.": "Our professional designer made the layers in Blender, ..., ... and our programmers mixed it with a custom candy machine, except for the gods who are made manually each of them.",
     "Born of Sons of Gods": "Born of Sons of Gods",
     "Made by": "Made by",
+    "cookie": {
+        "header": "Cookies used on the website!",
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "allow": "As a Son of Gods, I accept.",
+        "deny": "Decline",
+        "link": "Learn more",
+        "policy": "Cookie Policy"
+    },
 
     "In the beginning, all space-time was chaos. Our universe was forged": "In the beginning, all space-time was chaos. Our universe was forged",
     "by a hitherto indecipherable event. This one detaches the": "by a hitherto indecipherable event. This one detaches the",
