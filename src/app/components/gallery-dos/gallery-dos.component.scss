@@ -60,6 +60,12 @@
 }
 
 @media (max-width: 600px) {
+
+  .gallery_master_container {
+    margin-top: 80px;
+    height: max-content;
+  }
+
   .swiper-slide {
     width: 200%;
   }

@@ -13,7 +13,13 @@
 /* Image */
 .roadmap_master_container img {
   max-width: 100% !important;
-  width: 663px;
-  height: 1686px;
-  filter: brightness(1.2) saturate(1.6);  
+  width: 98%;
+ // height: 1686px;
+  filter: brightness(1.2) saturate(1.6);
+}
+
+@media (max-width: 600px) {
+  .roadmap_master_container {
+    margin-top: 80px;
+  }
 }

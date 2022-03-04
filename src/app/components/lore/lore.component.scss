@@ -112,7 +112,7 @@
   }
 
   .lore_master_container .swiper-pointer-events .swiper-wrapper {
-    height: 80% !important;
+    height: 70% !important;
   }
 
   .lore_master_container .swiper-wrapper .swiper-slide-active {
@@ -126,5 +126,11 @@
 
   .player {
     width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .lore_master_container {
+    margin-top: 80px;
   }
 }

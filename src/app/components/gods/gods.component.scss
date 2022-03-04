@@ -39,3 +39,9 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media (max-width: 600px) {
+  .gods_master_container {
+    margin-top: 80px;
+  }
+}
