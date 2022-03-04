@@ -12,7 +12,6 @@ import { CountdownTimerModule } from './../../projects/countdown-timer/src/lib/c
 import { TeamComponent } from './components/team/team.component';
 import { NgParticlesModule } from 'ng-particles';
 import { ParticlesComponent } from './components/particles/particles.component';
-import { GalleryComponent } from './components/gallery/gallery.component';
 import { SwiperModule } from 'swiper/angular';
 import { RoadmapComponent } from './components/roadmap/roadmap.component';
 import { FaqComponent } from './components/faq/faq.component';
@@ -25,6 +24,7 @@ import { GodsComponent } from './components/gods/gods.component';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { GalleryDosComponent } from './components/gallery-dos/gallery-dos.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -39,11 +39,11 @@ export function HttpLoaderFactory(http: HttpClient) {
     BannerComponent,
     TeamComponent,
     ParticlesComponent,
-    GalleryComponent,
     RoadmapComponent,
     FaqComponent,
     LoaderComponent,
     GodsComponent,
+    GalleryDosComponent,
   ],
   imports: [
     BrowserModule,

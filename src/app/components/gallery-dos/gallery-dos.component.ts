@@ -6,15 +6,16 @@ import {
   ViewEncapsulation,
 } from '@angular/core';
 import { SwiperComponent } from 'swiper/angular';
-import SwiperCore, { SwiperOptions, Pagination, Swiper, Zoom, Navigation } from 'swiper';
+import SwiperCore, { SwiperOptions, Pagination, Swiper, Zoom, Navigation, FreeMode } from 'swiper';
 
-SwiperCore.use([Pagination, Zoom, Navigation]);
+SwiperCore.use([Pagination, Zoom, Navigation, FreeMode]);
 @Component({
-  selector: 'app-gods',
-  templateUrl: './gods.component.html',
-  styleUrls: ['./gods.component.scss']
+  selector: 'app-gallery-dos',
+  templateUrl: './gallery-dos.component.html',
+  styleUrls: ['./gallery-dos.component.scss'],
+  encapsulation: ViewEncapsulation.None,
 })
-export class GodsComponent implements OnInit {
+export class GalleryDosComponent implements OnInit, AfterContentChecked {
   @ViewChild('swiper') swiper: SwiperComponent | undefined;
 
   onResize() {}
@@ -43,10 +44,13 @@ export class GodsComponent implements OnInit {
       zoom: {
         maxRatio: 3,
       },
+      pagination: true,
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
+      freeMode: true,
+      loop: true,
       // Responsive breakpoints
       breakpoints: {
         // when window width is >= 320px

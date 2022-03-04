@@ -12,6 +12,7 @@
 
 .gallery_master_container {
   margin-top: 199px;
+  height: max-content;
 }
 
 .gallery_master_container .swiper-pointer-events {
@@ -19,6 +20,7 @@
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
+  height: 841px;
 }
 
 .gallery_master_container .swiper-pointer-events .swiper-wrapper {
@@ -55,4 +57,10 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .swiper-slide {
+    width: 200%;
+  }
 }

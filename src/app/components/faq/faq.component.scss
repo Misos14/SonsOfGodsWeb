@@ -159,17 +159,30 @@ $sombra: 0 0 13px 0 rgb(255, 255, 255);
   color: rgb(255, 255, 255);
 }
 
-
 @media (max-width: 800px) {
+  .show_answer_container {
+    height: 130px;
+  }
 
   .faq_container {
     margin-left: 5%;
     margin-right: 5%;
   }
 
-  .categories .category{
+  .categories .category {
     padding-left: 0;
     padding-right: 0;
   }
-  
+}
+
+@media (max-width: 600px) {
+  .show_answer_container {
+    height: 190px;
+  }
+}
+
+@media (max-width: 355px) {
+  .show_answer_container {
+    height: 220px;
+  }
 }
