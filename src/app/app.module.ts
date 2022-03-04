@@ -29,7 +29,7 @@ import {NgcCookieConsentModule, NgcCookieConsentConfig} from 'ngx-cookieconsent'
 
 const cookieConfig:NgcCookieConsentConfig = {
   cookie: {
-    domain: 'sonsofgods.io' // or 'your.domain.com' // it is mandatory to set a domain, for cookies to work properly (see https://goo.gl/S2Hy2A)
+    domain: 'localhost'/*'sonsofgods.io'*/ // or 'your.domain.com' // it is mandatory to set a domain, for cookies to work properly (see https://goo.gl/S2Hy2A)
   },
   palette: {
     popup: {

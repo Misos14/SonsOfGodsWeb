@@ -6,12 +6,33 @@
 
 .gods_master_container {
   margin-top: 200px;
+  overflow: hidden;
 }
 
-.swiper {
+.gods_swiper {
+  margin-top: 20px;
   width: 100%;
-  height: 45%;
+  height: 60% !important;
 }
+
+.swiper-wrapper {
+  left: -57px;
+}
+
+.swiper-slide-active {
+  transform: scale(1.09);
+  width: 609px !important;
+}
+
+.gods_swiper .swiper-slide-active {
+  filter: brightness(1.12) contrast(1.06) saturate(1.55);
+}
+
+// .swiper-slide img {
+//   filter: brightness(0.72) saturate(0);
+//   -webkit-transition: all 1s ease;
+//   transition: all 1s ease;
+// }
 
 .swiper-slide {
   text-align: center;
@@ -31,6 +52,10 @@
   -webkit-align-items: center;
   align-items: center;
   overflow: hidden;
+
+  transition: transform 1s;
+
+  filter: brightness(0.72) saturate(0);
 }
 
 .swiper-slide img {
