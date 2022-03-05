@@ -30,7 +30,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 const cookieConfig:NgcCookieConsentConfig = {
   cookie: {
-    domain: 'localhost'/*'sonsofgods.io'*/ // or 'your.domain.com' // it is mandatory to set a domain, for cookies to work properly (see https://goo.gl/S2Hy2A)
+    domain: 'sonsofgods.io'/*'sonsofgods.io'*/ // or 'your.domain.com' // it is mandatory to set a domain, for cookies to work properly (see https://goo.gl/S2Hy2A)
   },
   palette: {
     popup: {
