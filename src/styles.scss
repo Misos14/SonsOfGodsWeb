@@ -279,6 +279,11 @@ body {
   #timer div span {
     margin-top: 0 !important;
   }
+
+  #master .player .ngx-audio-player{
+    min-width:315px;
+    width:315px;
+   }
 }
 
 @media (max-width: 400px) {
