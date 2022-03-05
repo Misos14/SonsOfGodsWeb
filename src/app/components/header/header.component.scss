@@ -157,6 +157,15 @@ li a:hover {
   li a {
     padding: 7px;
   }
+}
 
-  
+@media (max-width: 600px) {
+  .navbar-nav .nav-item a {
+    font-size: 11px !important;
+  }
+}
+@media (max-width: 300px) {
+  .menu-mat {
+    width: 0;
+  }
 }

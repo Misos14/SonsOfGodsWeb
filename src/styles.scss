@@ -127,8 +127,9 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  font-size: 30px;
+  font-size: 50px;
   width: max-content !important;
+  margin-top: 190px;
 }
 
 /* Division */
@@ -240,6 +241,7 @@ body {
 @media (max-width: 1400px) {
   #timer {
     font-size: 35px;
+    margin-top: 124px;
   }
 
   #timer div {
@@ -262,7 +264,6 @@ body {
   #timer div {
     padding: 10px !important;
     margin: 0px !important;
-
   }
 
   .title {
@@ -270,7 +271,18 @@ body {
   }
 }
 
+@media (max-width: 600px) {
+  #timer {
+    margin-top: 100px;
+  }
+}
+
 @media (max-width: 500px) {
+  #timer {
+    font-size: 20px;
+    margin-top: 50px;
+  }
+
   #timer div {
     font-size: 20px;
     padding: 5px !important;
@@ -280,13 +292,17 @@ body {
     margin-top: 0 !important;
   }
 
-  #master .player .ngx-audio-player{
-    min-width:315px;
-    width:315px;
-   }
+  #master .player .ngx-audio-player {
+    min-width: 221px;
+    width: 221px;
+  }
 }
 
 @media (max-width: 400px) {
+  #timer{
+    margin-top: 40px;
+  }
+
   #timer div {
     font-size: 17px;
     padding: 4px !important;
