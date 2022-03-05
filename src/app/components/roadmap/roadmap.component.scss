@@ -13,13 +13,19 @@
 /* Image */
 .roadmap_master_container img {
   max-width: 100% !important;
-  width: 98%;
- // height: 1686px;
+  width: 35%;
   filter: brightness(1.2) saturate(1.6);
+  position: relative;
+  right: 73px;
 }
 
 @media (max-width: 600px) {
   .roadmap_master_container {
     margin-top: 80px;
+  }
+
+  .roadmap_master_container img {
+    width: 98%;
+    right: 0;
   }
 }

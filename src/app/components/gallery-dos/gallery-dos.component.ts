@@ -37,7 +37,7 @@ export class GalleryDosComponent implements OnInit, AfterContentChecked {
     if (width < 800) {
     }
 
-    const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.swiper', {
       // Default parameters
       spaceBetween: 100,
       //freeMode: true,
