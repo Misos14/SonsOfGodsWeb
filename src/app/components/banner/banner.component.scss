@@ -17,6 +17,35 @@
   align-items: center;
 }
 
+.social_medias {
+  width: 150%;
+  float: left;
+  display: flex;
+}
+
+.ng-fa-icon {
+  padding: 20px;
+  font-size: 200%;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+    background-color:rgba(0,0,0,0);
+    color:#ffffff;
+}
+
+/* Add a hover effect if you want */
+.ng-fa-icon:hover {
+  opacity: 0.7;
+}
+
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
 .logo_img {
   margin-bottom: 220%;
 }

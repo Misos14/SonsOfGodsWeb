@@ -26,6 +26,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { GalleryDosComponent } from './components/gallery-dos/gallery-dos.component';
 import {NgcCookieConsentModule, NgcCookieConsentConfig} from 'ngx-cookieconsent';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 const cookieConfig:NgcCookieConsentConfig = {
   cookie: {
@@ -83,6 +84,7 @@ export function HttpLoaderFactory(http: HttpClient) {
         deps: [HttpClient],
       },
     }),
+    FontAwesomeModule,
   ],
   providers: [ HttpClient ],
   bootstrap: [AppComponent],
