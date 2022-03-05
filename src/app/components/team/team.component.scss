@@ -1,5 +1,6 @@
 .team_master_container {
   margin-top: 200px;
+  z-index: 10000000;
 }
 
 .img_master_container {
@@ -21,6 +22,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  z-index: 10 !important;
 }
 
 .second_half_team_container {
@@ -28,6 +30,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  z-index: 10 !important;
 }
 
 .img_container a {
