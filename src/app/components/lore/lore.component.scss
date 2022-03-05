@@ -104,7 +104,7 @@
 @media (max-width: 1024px) {
   .swiper-zoom-container {
     width: 70% !important;
-    height: 40% !important;
+    height: 100% !important;
   }
 
   .swiper-slide {
@@ -133,8 +133,22 @@
   .lore_master_container {
     margin-top: 80px;
   }
-  
+
+  .swiper-pointer-events {
+    height: 100%;
+  }
+
   .player {
     width: 80%;
+  }
+}
+
+@media (max-width: 450px) {
+  
+  .swiper-zoom-container {
+    font-size: 15px;
+  }
+  .swiper-slide {
+    font-size: 15px !important;
   }
 }
