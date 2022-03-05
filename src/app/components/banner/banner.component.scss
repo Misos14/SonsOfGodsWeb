@@ -9,16 +9,17 @@
 }
 
 .banner_content_container {
+  margin-top: 100px !important;
   height: max-content;
   width: 100%;
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("../../../assets/fondo_banner.png");
+  background-repeat: round;
 }
 
 .social_medias {
-  width: 150%;
   float: left;
   display: flex;
 }
@@ -29,8 +30,8 @@
   width: 50px;
   text-align: center;
   text-decoration: none;
-    background-color:rgba(0,0,0,0);
-    color:#ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  color: #ffffff;
 }
 
 /* Add a hover effect if you want */
@@ -38,13 +39,11 @@
   opacity: 0.7;
 }
 
-
 /* Twitter */
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
 }
-
 
 .logo_img {
   margin-bottom: 220%;
@@ -107,6 +106,7 @@
   margin-top: 100px;
   width: 100%;
   z-index: -10;
+  position: fixed;
 }
 
 .row {
@@ -129,15 +129,13 @@
     width: 100% !important;
     left: -67px;
   }
-
-  .banner_container .banner {
-    margin-top: 80px;
-  }
 }
 
 @media (max-width: 800px) {
   .banner {
     width: 150% !important;
+    height: 40%;
+    margin-top: 40px !important;
   }
 
   .zeus {
@@ -146,15 +144,15 @@
 
   .zeus_container {
     width: 80%;
-    float: none;
-    flex: 0 1 auto;
     display: flex;
     justify-content: flex-end;
+    position: unset;
   }
 
   .poseidon_container {
     width: 80%;
     overflow: hidden;
+    z-index: 10000000;
   }
 
   .poseidon {
@@ -164,8 +162,14 @@
   .logo_img {
     margin-bottom: 300%;
   }
-  
-.logo_banner_container img {
-  width: 280% !important;
+
+  .logo_banner_container img {
+    width: 280% !important;
+  }
 }
+
+@media (max-width: 500px) {
+  .banner_container {
+     height: 300px;
+  }
 }

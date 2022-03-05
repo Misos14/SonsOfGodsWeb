@@ -54,11 +54,7 @@ $sombra: 0 0 13px 0 rgb(255, 255, 255);
 // /*! =================================================*/
 // /*! ============= Contenedor question ============= */
 // /*! =================================================*/
-// .question_container {
-// 	display: none;
-// 	grid-template-columns: 1fr;
-// 	gap: 40px;
-// }
+
 
 .question_container.activo {
   display: grid;
@@ -185,4 +181,13 @@ $sombra: 0 0 13px 0 rgb(255, 255, 255);
   .show_answer_container {
     height: 220px;
   }
+
+  .category svg{
+    width:38px;
+   }
+
+   .categories {
+    gap: 6px;
+  }
+  
 }
