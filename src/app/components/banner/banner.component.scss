@@ -29,6 +29,7 @@
   float: left;
   display: flex;
   margin-top: 100px;
+  z-index: 1000;
 }
 
 .ng-fa-icon {
@@ -141,6 +142,7 @@
 @media (max-width: 1200px) {
   .social_medias {
     margin-top: 70px;
+    z-index: 1000;
   }
 
   .ng-fa-icon {
@@ -209,6 +211,7 @@
   }
   .social_medias {
     margin-top: 50px;
+    z-index: 1000;
   }
 
   .ng-fa-icon {
@@ -236,5 +239,6 @@
   }
   .social_medias {
     margin-top: 30px;
+    z-index: 1000;
   }
 }
