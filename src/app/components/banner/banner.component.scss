@@ -25,10 +25,15 @@
   margin-bottom: -50px;
 }
 
+.discord_container{
+z-index: 95095 !important;  
+}
+
 .social_medias {
   float: left;
   display: flex;
   margin-top: 100px;
+  z-index: 1000;
 }
 
 .ng-fa-icon {
@@ -59,21 +64,25 @@
 .zeus_container {
   height: 100%;
   width: 45%;
+  z-index: 1000;
 }
 
 .zeus {
   height: 100%;
   width: 100%;
+  z-index: 1000;
 }
 
 .poseidon_container {
   height: 100%;
   width: 45%;
+  z-index: 40;
 }
 
 .poseidon {
   height: 100%;
   width: 100%;
+  z-index: 1000;
 }
 
 .logo_counter_container {
@@ -141,6 +150,7 @@
 @media (max-width: 1200px) {
   .social_medias {
     margin-top: 70px;
+    z-index: 1000;
   }
 
   .ng-fa-icon {
@@ -168,6 +178,7 @@
 
   .zeus {
     width: 150% !important;
+    z-index: 1000;
   }
 
   .zeus_container {
@@ -175,16 +186,18 @@
     display: flex;
     justify-content: flex-end;
     position: unset;
+    z-index: 1000;
   }
 
   .poseidon_container {
     width: 80%;
     overflow: hidden;
-    z-index: 10000000;
+    z-index: 40;
   }
 
   .poseidon {
     width: 150% !important;
+    z-index: 40;
   }
 
   .logo_img {
@@ -209,6 +222,7 @@
   }
   .social_medias {
     margin-top: 50px;
+    z-index: 1000;
   }
 
   .ng-fa-icon {
@@ -236,5 +250,6 @@
   }
   .social_medias {
     margin-top: 30px;
+    z-index: 1000;
   }
 }
