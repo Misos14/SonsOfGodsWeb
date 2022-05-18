@@ -1,14 +1,12 @@
 import {
   Component,
-  ElementRef,
   OnInit,
-  ViewChild,
   Inject,
   OnDestroy
 } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 import { TranslateService } from '@ngx-translate/core';
-import {NgcCookieConsentModule, NgcCookieConsentService, NgcInitializeEvent, NgcNoCookieLawEvent, NgcStatusChangeEvent} from 'ngx-cookieconsent';
+import {NgcCookieConsentService, NgcInitializeEvent, NgcNoCookieLawEvent, NgcStatusChangeEvent} from 'ngx-cookieconsent';
 import { Subscription }   from 'rxjs/Subscription';
 
 

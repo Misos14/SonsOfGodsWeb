@@ -6,7 +6,7 @@ import {
   ViewEncapsulation,
 } from '@angular/core';
 import { SwiperComponent } from 'swiper/angular';
-import SwiperCore, { SwiperOptions, Pagination, Swiper, Zoom, Navigation, FreeMode } from 'swiper';
+import SwiperCore, { Pagination, Swiper, Zoom, Navigation, FreeMode } from 'swiper';
 
 SwiperCore.use([Pagination, Zoom, Navigation, FreeMode]);
 @Component({

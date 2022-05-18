@@ -1,13 +1,10 @@
 import {
-  AfterContentChecked,
   Component,
   OnInit,
   ViewChild,
-  ViewEncapsulation,
 } from '@angular/core';
 import { SwiperComponent } from 'swiper/angular';
-import SwiperCore, {
-  SwiperOptions,Pagination, Swiper, Zoom, Navigation, FreeMode, Scrollbar, EffectCoverflow  } from 'swiper';
+import SwiperCore, { Pagination, Swiper, Zoom, Navigation, FreeMode, Scrollbar, EffectCoverflow  } from 'swiper';
 
 SwiperCore.use([Pagination, Zoom, Navigation, FreeMode, Scrollbar, EffectCoverflow ]);
 @Component({

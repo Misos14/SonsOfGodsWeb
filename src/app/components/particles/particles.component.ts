@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { ISourceOptions } from 'tsparticles';
 @Component({
   selector: 'app-particles',
