@@ -32,6 +32,7 @@
     "all": "^0.0.0",
     "cookieconsent": "^3.1.1",
     "ng": "^0.0.0",
+    "ng-lazyload-image": "^9.1.2",
     "ng-particles": "^2.21.0",
     "ngrok": "^4.3.0",
     "ngx-audio-player": "^11.0.4",

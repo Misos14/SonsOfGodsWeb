@@ -27,6 +27,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { GalleryDosComponent } from './components/gallery-dos/gallery-dos.component';
 import {NgcCookieConsentModule, NgcCookieConsentConfig} from 'ngx-cookieconsent';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { LazyLoadImageModule } from 'ng-lazyload-image';
 
 const cookieConfig:NgcCookieConsentConfig = {
   cookie: {
@@ -76,6 +77,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ButtonModule,
     NgxAudioPlayerModule,
     HttpClientModule,
+    LazyLoadImageModule,
     NgcCookieConsentModule.forRoot(cookieConfig),
     TranslateModule.forRoot({
       loader: {
