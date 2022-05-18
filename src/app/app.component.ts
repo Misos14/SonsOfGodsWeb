@@ -42,14 +42,14 @@ export class AppComponent implements OnInit, OnDestroy{
       if (element != null) {
         element.className = 'notShow';
       }
-    }, 1000);
+    }, 2000);
 
     setTimeout(() => {
       let element = document.getElementById('head');
       if (element != null) {
         element.className = 'show';
       }
-    }, 1800);
+    }, 2800);
 
     setTimeout(() => {
       this.isShowing = false;
@@ -57,7 +57,7 @@ export class AppComponent implements OnInit, OnDestroy{
       if (element != null) {
         element.className = 'master_container show';
       }
-    }, 2200);
+    }, 3200);
 
     // END LOADER SECCION //
 
