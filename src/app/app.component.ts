@@ -66,11 +66,9 @@ export class AppComponent implements OnInit, OnDestroy{
   }
 
   ngOnInit() {
-    this.meta.addTag({ name: 'description', content: 'This is an article about Angular Meta service' });
-
     this.meta.addTags([
-      { name: 'description', content: 'NTF collection of 5555 uniques warriors, become a son of gods.' },
-      { name: 'author', content: 'D&D' },
+      { property: 'og:description', content: 'NTF collection of 5555 uniques warriors, become a son of gods.' },
+      { property: 'og:author', content: 'D&D' },
       { property: 'og:type', content: 'NFTs' },
       { property: 'og:url', content: 'https://sonsofgods.io' },
       { property: 'og:image', content: 'https://sonsofgods.io/assets/logosonofgods.png' },
