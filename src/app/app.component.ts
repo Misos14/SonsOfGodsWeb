@@ -8,6 +8,7 @@ import { DOCUMENT } from '@angular/common';
 import { TranslateService } from '@ngx-translate/core';
 import {NgcCookieConsentService, NgcInitializeEvent, NgcNoCookieLawEvent, NgcStatusChangeEvent} from 'ngx-cookieconsent';
 import { Subscription }   from 'rxjs/Subscription';
+import { Meta } from '@angular/platform-browser';  
 
 
 @Component({
@@ -32,7 +33,8 @@ export class AppComponent implements OnInit, OnDestroy{
   constructor(
     @Inject(DOCUMENT) private document: Document,
     private translateService: TranslateService,
-    private ccService: NgcCookieConsentService
+    private ccService: NgcCookieConsentService,
+    private meta: Meta,
   ) {
     // LOADER SECCION //
     setTimeout(() => {
@@ -64,6 +66,18 @@ export class AppComponent implements OnInit, OnDestroy{
   }
 
   ngOnInit() {
+    this.meta.addTag({ name: 'description', content: 'This is an article about Angular Meta service' });
+
+    this.meta.addTags([
+      { name: 'description', content: 'NTF collection of 5555 uniques warriors, become a son of gods.' },
+      { name: 'author', content: 'D&D' },
+      { property: 'og:type', content: 'NFTs' },
+      { property: 'og:url', content: 'https://sonsofgods.io/' },
+      { property: 'og:image', content: 'https://sonsofgods.io/assets/logosonofgods.png' },
+      { property: 'og:image:width', content: '600' },
+      { property: 'og:image:height', content: '600' }
+    ]);
+
     this.translateService.use(localStorage.getItem('lang') || 'en');
 
     this.translateService//
