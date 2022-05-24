@@ -149,7 +149,7 @@ z-index: 95095 !important;
 
 @media (max-width: 1200px) {
   .social_medias {
-    margin-top: 70px;
+    margin-top: 0;
     z-index: 1000;
   }
 
@@ -164,9 +164,9 @@ z-index: 95095 !important;
 }
 
 @media (max-width: 1024px) {
-  .comming_soon_img {
-    width: 20%;
-  }
+  // .comming_soon_img {
+  //   width: 20%;
+  // }
 }
 
 @media (max-width: 800px) {

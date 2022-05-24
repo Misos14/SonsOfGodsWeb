@@ -240,7 +240,8 @@ body {
 @media (max-width: 1400px) {
   #timer {
     font-size: 35px;
-    margin-top: 124px;
+    margin-top: 70px;
+    font-size: 40px !important;
   }
 
   #timer div {
@@ -252,7 +253,9 @@ body {
 @media (max-width: 1024px) {
   #timer div {
     font-size: 25px;
-    width: 15% !important;
+    width: 20px !important;
+    //width: 15% !important;
+    padding-bottom: 0px !important;
 
     // font-size: 30px;
     // width: 15% !important;
