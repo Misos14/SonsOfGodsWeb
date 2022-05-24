@@ -1,5 +1,5 @@
 .banner_container {
-  width: 100%;
+  width: 100% !important;
   overflow: hidden !important;
   display: flex !important;
   align-items: center !important;
@@ -217,11 +217,13 @@ z-index: 95095 !important;
   .logo_img {
     margin-bottom: 200%;
   }
+
   .timeCounter {
     height: 10%;
   }
+
   .social_medias {
-    margin-top: 50px;
+    margin-top: 0px;
     z-index: 1000;
   }
 
@@ -233,6 +235,15 @@ z-index: 95095 !important;
 @media (max-width: 500px) {
   .banner_container {
     height: 300px;
+  }
+  
+  .social_medias {
+    margin-top: 20px;
+    z-index: 1000;
+  }
+  
+  #timer {
+    margin-top: 78px;
   }
 
   .comming_soon_img {
@@ -248,8 +259,8 @@ z-index: 95095 !important;
   .banner_container {
     height: 250px;
   }
+
   .social_medias {
-    margin-top: 30px;
-    z-index: 1000;
+    margin-top: 15px;
   }
 }

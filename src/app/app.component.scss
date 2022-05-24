@@ -1,6 +1,7 @@
 .master_container {
   opacity: 0;
   z-index: -10000;
+  width: 100% !important;;
 }
 
 .show {
@@ -25,4 +26,8 @@
   visibility: visible;
   opacity: 1;
   transition: visibility 0s, opacity 0.2s linear;
+}
+
+.roadmap{
+  transition: all 1s ease-in-out;
 }
