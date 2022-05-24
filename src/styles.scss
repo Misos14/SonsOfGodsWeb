@@ -127,15 +127,15 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  font-size: 50px;
+  font-size: 50px !important;
   width: max-content !important;
-  margin-top: 190px;
+  margin-top: 50px;
 }
 
 /* Division */
 #timer div {
   width: 48px !important;
-  display: inline-flex !important;
+  //display: inline-flex !important;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -143,7 +143,6 @@ body {
   clear: none;
   opacity: 1;
   pointer-events: auto;
-  flex-direction: column;
 }
 // Player //
 
