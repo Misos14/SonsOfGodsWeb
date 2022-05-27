@@ -76,6 +76,11 @@ export class CountdownTimerComponent implements OnInit {
     const mins = Math.floor(diff / (1000 * 60));
     const secs = Math.floor(diff / 1000);
     
+    // const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    // const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+    // const mins = Math.floor((diff / 1000 / 60) % 60);
+    // const secs = Math.floor((diff / 1000) % 60);
+    // // 
     // La diferencia que se asignará para mostrarlo en la pantalla
     this.time.days = days;
     this.time.hours = hours - days * 24;

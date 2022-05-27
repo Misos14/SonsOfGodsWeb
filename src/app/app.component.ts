@@ -2,7 +2,8 @@ import {
   Component,
   OnInit,
   Inject,
-  OnDestroy
+  OnDestroy,
+  TRANSLATIONS
 } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 import { TranslateService } from '@ngx-translate/core';
