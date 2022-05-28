@@ -33,6 +33,8 @@
 .first_half_team_container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  z-index: 10 !important;
   // align-items: center;
   // z-index: 10 !important;
   // width: 70%;
@@ -41,6 +43,8 @@
 .second_half_team_container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  z-index: 10 !important;
   margin-top: 43px;
   // align-items: center;
   // z-index: 10 !important;
@@ -220,4 +224,20 @@
     width: 40%;
     height: 50%; 
   }
+  
+  .team_card{
+    height: 30%;
+  }
+}
+
+@media (max-width: 500px){
+  .team_master_container a .insta {
+    width: 30px;
+    height: 30px;
+  }
+  .team_master_container a .twitter {
+    width: 30px;
+    height: 30px;
+  }
+  
 }
