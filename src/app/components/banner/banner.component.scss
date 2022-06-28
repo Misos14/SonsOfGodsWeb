@@ -32,7 +32,7 @@ z-index: 95095 !important;
 .social_medias {
   float: left;
   display: flex;
-  margin-top: 10px;
+  margin-top: 46px;
   z-index: 1000;
 }
 
@@ -138,20 +138,54 @@ z-index: 95095 !important;
   align-items: center;
   position: relative;
   z-index: 50;
+  margin-top: 129px !important; 
 }
+
+/* Button */
+.timeCounter button{
+  width: 300px;
+  height: 70px;
+  background-color:#000000;
+  border-top-left-radius:13px;
+  border-top-right-radius:13px;
+  border-bottom-left-radius:13px;
+  border-bottom-right-radius:13px;
+  font-size: 30px;
+  color:#ffffff;
+  border-color:#ffffff;
+  transition: all 0.5s ease-in-out;
+ }
+
+ .timeCounter button:hover{
+  box-shadow: 0px 4px 28px -2px #ffd500 !important;
+  transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+ }
 
 @media (max-width: 1600px) {
   .comming_soon_img {
     width: 30%;
     margin-bottom: -50px;
   }
+
+  .timeCounter button{
+    width: 256px;
+    height: 60px;
+    font-size: 25px;
+   }
 }
 
 @media (max-width: 1200px) {
   .social_medias {
-    margin-top: 0;
+    margin-top: 17px;
     z-index: 1000;
   }
+
+  .timeCounter button{
+    width: 210px;
+    height: 45px;
+    font-size: 20px;
+   }
 
   .ng-fa-icon {
     font-size: 200%;
@@ -223,9 +257,14 @@ z-index: 95095 !important;
   }
 
   .social_medias {
-    margin-top: 0px;
+    margin-top: 30px;
     z-index: 1000;
   }
+
+  .timeCounter button{
+    width: 180px;
+    font-size: 25px;
+   }
 
   .ng-fa-icon {
     font-size: 150%;
@@ -241,9 +280,15 @@ z-index: 95095 !important;
     margin-top: 20px;
     z-index: 1000;
   }
+
+  .timeCounter button{
+    width: 133px;
+    height: 30px;
+    font-size: 15px;
+   }
   
   #timer {
-    margin-top: 78px;
+    margin-top: 120px;
   }
 
   .comming_soon_img {
